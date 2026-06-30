@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{62c65532-efe8-485e-84d2-7d30f848f38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{271920b7-3364-46a4-9735-105d59aefc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{677bda78-ad94-4425-853e-3021a4af5e00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcherTower.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BarracksTower.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="MageTower.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtilleryTower.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="KingdomManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tower.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="MageTower.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtilleryTower.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherTower.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BarracksTower.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="KingdomManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="IAttackable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpgradable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICreatable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
